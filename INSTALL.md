@@ -54,8 +54,12 @@ cd $INSTALL_DIR
 # 2. cd apex
 # 3. git checkout e3794f422628d453b036f69de476bf16a0a838ac
 # 4. python setup.py install
+# - - - - - - - - - - - - - - - - - - - - - - - - - -
 
-
+git clone https://github.com/NVIDIA/apex.git
+cd apex
+git checkout e3794f422628d453b036f69de476bf16a0a838ac
+python setup.py install
 
 git checkout e3794f422628d453b036f69de476bf16a0a838ac  #AÑADIDO
 python setup.py install #AÑADIDO
