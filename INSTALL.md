@@ -47,8 +47,15 @@ python setup.py build_ext install
 
 # install apex  #MODIFICADO - - - - - 
 cd $INSTALL_DIR
-git clone https://github.com/NVIDIA/apex.git
-cd apex
+# Now, you have to go to this link https://github.com/Scalsol/mega.pytorch/issues/120
+# and follow the instructions that are at the end of the page, that are the following:
+# 1. git clone https://github.com/NVIDIA/apex.git
+# 2. cd apex
+# 3. git checkout e3794f422628d453b036f69de476bf16a0a838ac
+# 4. python setup.py install
+
+
+
 git checkout e3794f422628d453b036f69de476bf16a0a838ac  #AÑADIDO
 python setup.py install #AÑADIDO
 #python setup.py install --cuda_ext --cpp_ext (ESTE YA NO)
