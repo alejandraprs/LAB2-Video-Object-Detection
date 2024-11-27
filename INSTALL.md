@@ -45,16 +45,8 @@ git clone https://github.com/mcordts/cityscapesScripts.git
 cd cityscapesScripts/
 python setup.py build_ext install
 
-# install apex  #MODIFICADO - - - - - 
+# install apex  
 cd $INSTALL_DIR
-# Now, you need to go to the following link: https://github.com/Scalsol/mega.pytorch/issues/120.
-# Once there, follow the instructions provided at the end of the page, which are as follows:
-# - - - - - - - - - - - - - - - - - - - - - - - - - - 
-# 1. git clone https://github.com/NVIDIA/apex.git
-# 2. cd apex
-# 3. git checkout e3794f422628d453b036f69de476bf16a0a838ac
-# 4. python setup.py install
-# - - - - - - - - - - - - - - - - - - - - - - - - - -
 git clone https://github.com/NVIDIA/apex.git
 cd apex
 git checkout e3794f422628d453b036f69de476bf16a0a838ac
