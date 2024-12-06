@@ -1,8 +1,8 @@
 ## Installation
 
 ### Requirements:
-- PyTorch 1.3 (1.4 may cause some errors.)
-- torchvision from master
+- PyTorch 1.2.0 (1.3 and 1.4 may cause some errors.)
+- torchvision = 0.4.0
 - cocoapi
 - yacs
 - matplotlib
@@ -29,7 +29,7 @@ pip install ninja yacs cython matplotlib tqdm opencv-python scipy
 
 # follow PyTorch installation in https://pytorch.org/get-started/locally/
 # we give the instructions for CUDA 10.0
-conda install pytorch=1.3.0 torchvision cudatoolkit=10.0 -c pytorch
+conda install pytorch==1.2.0 torchvision==0.4.0 cudatoolkit=10.0 -c pytorch
 
 export INSTALL_DIR=$PWD
 
